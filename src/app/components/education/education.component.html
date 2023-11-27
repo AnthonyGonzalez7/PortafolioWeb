@@ -1,0 +1,24 @@
+<div class="educacion">
+    <div class="Title">
+        <p>Educación</p>
+    </div>
+    <div class="lista"  >
+        <div class="tarjeta" *ngFor = "let item of educacionItems">
+            <div class="img">
+              <img src={{item.logo}} alt="logo institucion">
+            </div>
+            <div class="text">
+              <p class="h3">{{item.title}}</p>
+              <p class="tp">{{item.institucion}}</p>         
+            </div>
+            <div class="info">
+              <p class="p" value=>{{item.time}}</p>
+              <a href={{item.url}} class="span">
+                <img src="../assets/archive.svg" class="ico" alt="">
+                <p class="t">Ver Diploma</p>
+              </a>
+              
+            </div>
+        </div>
+    </div>
+</div>

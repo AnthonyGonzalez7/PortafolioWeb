@@ -1,0 +1,20 @@
+<div class="projects">
+    <div class="titlesection">
+        <p class="title">Proyectos</p>
+    </div>
+    <div class="lista">
+        <div class="card" *ngFor="let item of projectsItems">
+            <div class="image">
+                <img class="img2" src="{{item.img}}" alt="Web">
+            </div>
+            <div class="texto">
+                <p class="title">{{item.title}}</p>
+                <p class="context">Contexto: {{item.context}}</p>
+                <p class="language">Herramientas: {{item.language}}</p>
+                <P class="type">Tipo de proyecto: {{item.type}}</P>
+                <a class="btn" href="{{item.url}}"><p class="btnp">Visítala</p></a>
+            </div>
+        
+        </div>
+    </div>
+</div>

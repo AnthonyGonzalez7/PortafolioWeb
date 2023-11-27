@@ -1,0 +1,83 @@
+.contenido {
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #F3EEEA;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card {
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 12px 10px;
+}
+  
+.card_load {
+    width: 40%;
+    height: 100%;
+    margin-right: 3.5%;
+    float: right;
+
+}
+
+.card_load .personimg{
+    width: 90%;
+    height: 90%;
+    margin-right: 5%;
+    background: #F3EEEA;
+    border-radius: 50%;
+}
+
+.card_load .nameimg{
+    height: auto;
+    display: flex;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+  
+.card_title {
+    width: 40%;
+    height: 20%;
+    margin-left: 8%;
+    padding: 2%;
+    position: relative;
+    float: left;
+
+}
+  
+.card_descripion {
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    margin-left: 8%;
+    float: left;
+    margin-top: 10px;
+}
+
+.card_descripion .contact {
+    width: 100%;
+    height: 30%;
+}
+  
+.card_descripion .icos {
+    width: 100%;
+    height: 30%;
+    column-count: 5;
+}
+
+.card_descripion .icos svg:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+    stroke: rgb(237, 5, 117) !important;
+}
+
+

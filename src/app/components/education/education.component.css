@@ -1,0 +1,100 @@
+.educacion {
+  background-color: #F3EEEA;
+  display: table;
+  font-family: 'Oswald', sans-serif;
+}
+
+.educacion .Title {
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+.educacion .lista {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Ajusta según sea necesario */
+  gap: 10px; /* Ajusta según sea necesario */
+}
+
+.educacion .lista .tarjeta {
+  flex: 1;
+  height: auto;
+  margin: 5%; 
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+  display: grid;
+  grid-template-rows: auto 2fr auto; /* Divide la tarjeta en tres filas, la segunda ocupará el espacio restante */
+}
+
+.educacion .lista .tarjeta .img{
+  border-radius: 10%;
+  padding: 5%;
+  width: auto;
+  height: auto;
+}
+
+.educacion .lista .tarjeta .text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.educacion .lista .tarjeta .text .tp{
+  color: gray;
+  font-size: 15px;
+}
+
+.educacion .lista .tarjeta .info{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+  columns: 2;
+  padding: 5%;
+}
+
+.educacion .lista .tarjeta .info .p{
+  color: gray;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.educacion .lista .tarjeta .info .span{
+  background-color: #F3EEEA;
+  color:black;
+  text-decoration: none;
+  margin-left: -10%;
+  padding: 2.5% 10% 2.5% 10%;
+  border-radius: 10px;
+  border: transparent;
+  display: flex;
+  columns:2;
+  justify-content: center;
+  align-items: center;
+}
+
+.educacion .lista .tarjeta .info .span:hover{
+  transform: scale(1.05);
+  transition: all 0.3s;
+  background-color: rgb(237, 5, 117);
+  box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+}
+
+.educacion .lista .tarjeta .info .span .ico{
+  width: 25%;
+}
+
+.educacion .lista .tarjeta .info .span .t{
+  width: 75%;
+  margin-left:5%;
+  font-size: 12px;
+}
+
